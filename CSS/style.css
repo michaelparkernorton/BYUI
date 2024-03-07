@@ -61,3 +61,11 @@ a:hover {
   background-color: gray;
   cursor: pointer;
 }
+
+.links {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+}
