@@ -27,48 +27,6 @@ const getData = async () => {
 	newLink.appendChild(newImage);
   projects.appendChild(newDiv);
 	console.log(classData[0].image);
-	
-  // const tr = document.createElement("tr")
-//   displayGames(gameList.data)
-//   const initialValue = 0;
-//   const goalsForTotal = goalsFor.reduce((accumulator, currentValue) => accumulator + currentValue,
-//   initialValue,
-// );
-//   const goalsAgainstTotal = goalsAgainst.reduce((accumulator, currentValue) => accumulator + currentValue,
-//     initialValue,
-//   );
-//   const winsTotal = wins.reduce((accumulator, currentValue) => accumulator + currentValue,
-//   initialValue,
-// );
-//   const lossesTotal = losses.reduce((accumulator, currentValue) => accumulator + currentValue,
-//     initialValue,
-//   );
-
-//   const card = template.content.cloneNode(true).children[0]
-//   const cardDate = card.querySelector("[data-date]")
-//   const cardTime = card.querySelector("[data-time]")
-//   const cardOpponent = card.querySelector("[data-opponent]")
-//   const cardLocation = card.querySelector("[data-location]")
-//   const cardScore = card.querySelector("[data-score]")
-//   const cardWL = card.querySelector("[data-w-l]")
-//   cardDate.textContent = ""
-//   cardTime.textContent = ""
-//   cardOpponent.textContent = ""
-//   cardLocation.textContent = ""
-//   cardScore.textContent = `${goalsForTotal} - ${goalsAgainstTotal}`
-//   cardWL.textContent = `${winsTotal} - ${lossesTotal}`
-
-//   gamesElement.append(card);
-
-// Unfinished scoll feature
-  // const bodyRect = document.body.querySelector('main').getBoundingClientRect()
-
-  // const tr = document.querySelectorAll('tr')
-  // tr.forEach(tr => {
-  //   const rect = tr.getBoundingClientRect()
-  //   const offset = rect.top - bodyRect.top
-  //   tr.addEventListener('click', (e) => {scroll(0, offset)})
-  // });
 
 };
 
