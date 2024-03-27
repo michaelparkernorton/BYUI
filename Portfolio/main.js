@@ -23,6 +23,8 @@ const getData = async () => {
 		newH2.textContent = classProject.name
 		newImage.src = classProject.image
 		newLink.href = classProject.link
+
+		newImage.classList.add("preview")
 	
 		// add the newly created element and its content into the DOM
 		newDiv.appendChild(newH2)
